@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+/* IMPOSTAZIONI GENERALI*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    line-height: 1.65;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    border: 0.2px solid black; /* è stato inserito solamente per individuare correttamente
+    lo spazio occupato da tutto il sito*/
+}
+
+
+/* HEADER */
+
+header {
+    line-height: 1.5;
+}
+
+#logg {
+    background-color: black;
+}
+
+picture img {
+    width: 190px;
+    margin: 1em;
+}
+
+#hh {
+    padding: 2.7em;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-top: 1.5em;
+    color: white;
+    padding: 0.7em 1em;
+    background-color: #f04c2f;
+    border-radius: 0.4em;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #25a2c3;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0 1.2em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* MAIN */
+
+.contenitore {
+    padding: 2em;
+} 
+
+#con1 h2:first-of-type {
+    margin-top: 2.5em;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rosso {
+    background-color: red;
+    color: white;
+}
+
+.rosso h2 {
+    padding-top: 1.2em;
+    font-size: 1.7em;
+    color: white;
+}
+
+.rosso p:first-of-type{
+    margin-top: 2em;
+}
+
+#notebook {
+    width: 350px;
+    margin: 1em;
+    border-radius: 10em;
+}
+
+#id {
+    margin-top: 1.7em;
+    font-size: 1.2em;
+}
+
+#ceo {
+    font-size: 0.8em;
+    padding-bottom: 3em;
+}
+
+/* ASIDE */
+
+.im {
+    margin: 1em;
+    border: 1px solid #dee1e3;
+}
+
+.im p {
+    padding-bottom: 1.2em;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+/* FOOTER */
+
+#line {
+    width: 100%;
+}
+
+hr {
+    margin-top: 1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+
+#ft {
+    background-color: #25a2c3;
+    color: white;
+    margin-top: 4em;
+}
+
+#ft h2 {
+    color: white;
+    font-size: 1.7em;
+    padding-top: 1.3em;
+    margin: 0.8em;
+}
+
+#ft a {
+    color: white;
+}
+
+#copyright {
+    margin-top: 2em;
+    font-size: 0.8em;
+    padding-bottom: 4em;
+}
